@@ -9,3 +9,12 @@ sort(self, /, *, key=None, reverse=False)
     ascending or descending, according to their function values.
     
     The reverse flag can be set to sort in descending order.
+
+
+```
+def myFunc(e):
+  return len(e)
+
+cars = ['BMW', 'Subura', 'Ford', 'Benz', 'Porsche']
+cars.sort(key=myFunc, reverse = False) # 排列 cars 安字符长短
+```
